@@ -226,11 +226,11 @@ class ConferenceAssistant:
         messages = [
             {
                 "role": "system",
-                "content": "Sei un assistente esperto per i colloqui di lavoro. Analizza la conversazione e fornisci la risposta in base alla domanda percepita o al tema in causa. Se noti che ci sono troppe domande rispondi solo all'ultima. Usa un linguaggio professionale, conciso, con bullet point e vai a capo dopo 100 caratteri. Potrebbero esserci errori di ortografia, punteggiatura o parole non ben definite devi essere capace di interpretare bene il discorso e capire cosa si vuole dire."
-            },
+                "content": "Sei un assistente per meeting professionali. Analizza la conversazione e fornisci 3 suggerimenti pratici per rispondere o procedere. Sii conciso."
+                },
             {
                 "role": "user",
-                "content": f"Analizza questa conversazione che è un colloquio di lavoro e suggerisci la risposta all'ultima domanda:\n\n{context}\n\nFornisci la risposta per l'ultima domanda, vai a capo dopo 100 caratteri e fornisci un breve dettaglio con bullet point. Se ci sono errori grammaticali non farci caso, cerca di comprendere cosa vuole chiedere."
+                "content": f"Analizza questa conversazione e suggerisci le prossime mosse:\n\n{context}\n\nFornisci 3 suggerimenti brevi e pratici:"
             }
         ]
         
