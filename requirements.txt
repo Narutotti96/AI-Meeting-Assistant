@@ -1,0 +1,17 @@
+# AI Meeting Assistant - Python Dependencies
+
+# Audio processing
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Speech recognition
+faster-whisper>=1.0.0
+
+# AI/LLM
+aiohttp>=3.9.0
+
+# Global hotkeys
+pynput>=1.7.6
+
+# Optional: for better notifications
+# plyer>=2.1.0
